@@ -27,7 +27,7 @@ def get_baidu_hot_topics():
         print(f"请求失败: {e}")
         return []
 
-if __name__ == "__main__':
+if __name__ == '__main__':
     print("正在获取百度热搜榜...")
     topics = get_baidu_hot_topics()
     if topics:
